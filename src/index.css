@@ -1,10 +1,18 @@
+html {
+  height: 100%;
+}
 body {
-  margin: 0;
+  background-attachment: fixed;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(71deg, #16BFFD 0%, #CB3066 100%)
+}
+
+button {
+  cursor: pointer;
 }
 
 code {
